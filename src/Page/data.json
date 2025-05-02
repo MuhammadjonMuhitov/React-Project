@@ -1,0 +1,33 @@
+{
+    "cars": [
+        {
+            "type": "Rolls-Royce",
+            "model": "Rolls-Royce Cullinan",
+            "year": 2021,
+            "price": "36 950 000 ₽",
+            "images": ["https://greats.gallery/upload/resize_cache/iblock/b6d/730_547_2/ctdm9c9kre4resi63kgulg3ofv3776u0.jpg"]
+        },
+        {
+            "type": "Mercedes-Benz",
+            "model": "Mercedes-Benz GLS 450d FL",
+            "year": 2025,
+            "price": "19 470 000 ₽",
+            "images": ["https://greats.gallery/upload/resize_cache/iblock/1fb/730_547_2/w20nyjhc9hr1pjo4he3r2iahhxhf3o2a.jpg"]
+        },
+        {
+            "type": "BMW",
+            "model": "BMW X5M Competition",
+            "year": 2020,
+            "price": "12 800 000 ₽",
+            "images": ["https://greats.gallery/upload/resize_cache/iblock/2f5/730_547_2/gveh8rv6k9e14jttkpzu5dtfrr9b1zhg.jpg"]
+        },
+        {
+            "type": "BMW",
+            "model": "BMW X6M Competition FL",
+            "year": 2025,
+            "price": "24 950 000 ₽",
+            "images": ["https://greats.gallery/upload/resize_cache/iblock/d45/730_547_2/xvx8taba2dx64v2m3p33o0d97cg7sa6i.jpg"]
+        }
+
+    ]
+}
