@@ -1,20 +1,22 @@
 import React from 'react';
-import data from './data.json';
+import { Link } from 'react-router-dom';
 import './style/style.css';
+import data from '../Page/data.json';
+
 
 export const Catalog = () => {
   return (
-    <div className='container'>
-    <div className="car-list page-content">
-      {data.cars.map((car, index) => (
-        <div key={index} className="car-card">
-          <img src={car.images[0]} alt={car.model} />
-          <h3>{car.model}</h3>
-          <p>{car.year}</p>
-          <p>{car.price}</p>
-        </div>
-      ))}
-    </div>
+    <div className="container">
+      <div className="car-list page-content">
+        {data.cars.map((car, index) => (
+          <Link to={`/catalog/${index}`} key={index} className="car-card">
+            <img src={car.images[0]} alt={car.model} />
+            <h3>{car.model}</h3>
+            <p>{car.year}</p>
+            <p>{car.price}</p>
+          </Link>
+        ))}
+      </div>
     </div>
   );
 };

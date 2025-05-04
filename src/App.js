@@ -7,6 +7,8 @@ import { Contacts } from "./Page/Contacts";
 import { Catalog } from "./Page/Catalog";
 import { Service } from "./Page/Service";
 import { NavCom } from "./componennts/NavCom";
+import Car from "./Page/Car";
+
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/service" element={<Service />} />
           <Route path="/contacts" element={<Contacts />} />
+          <Route path="/catalog/:id" element={<Car />} />
+
         </Routes>
       </div>
     </BrowserRouter>

@@ -11,13 +11,13 @@ body {
   flex-direction: column;
 }
 
+
 .navbar {
   width: 100%;
   background-color: #121212;
   padding: 20px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
   position: fixed;
-  margin-bottom: 15px;
   top: 0;
   left: 0;
   z-index: 1000;
@@ -29,6 +29,7 @@ nav {
   align-items: center;
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0 20px;
 }
 
 .nav-logo h1 {
@@ -36,6 +37,7 @@ nav {
   margin: 0;
   font-size: 2rem;
 }
+
 
 .nav-links {
   display: flex;
@@ -54,6 +56,7 @@ nav {
   color: #ff5722;
 }
 
+
 .burger {
   display: none;
   cursor: pointer;
@@ -69,16 +72,19 @@ nav {
   border-radius: 5px;
 }
 
+
+
+
 @media (max-width: 768px) {
   .nav-links {
-    display: none;
     position: absolute;
     top: 80px;
     left: 0;
-    background-color: #121212;
     width: 100%;
-    flex-direction: column;
-    padding: 20px;
+    background-color: #121212;
+    padding: 20px 0;
+    align-items: center;
+    display: none;
     border-top: 1px solid #333;
   }
 
@@ -87,29 +93,47 @@ nav {
   }
 
   .nav-links a {
-    padding: 15px 0;
+    font-size: 1.3rem;
+    padding: 12px 0;
+    width: 100%;
     text-align: center;
-    font-size: 1.5rem;
-    display: flex;
   }
 
   .burger {
     display: flex;
   }
-}
 
-@media (max-width: 1024px) {
-  .nav-links {
-    gap: 15px;
-  }
-
-  .nav-links a {
-    font-size: 1rem;
+  .nav-logo h1 {
+    font-size: 1.6rem;
   }
 }
 
 
-/* Стили для компонента Home */
+@media (max-width: 480px) {
+  .nav-logo h1 {
+    font-size: 1.4rem;
+  }
+
+  .nav-links Link {
+    font-size: 15px;
+  }
+
+  .burger .line {
+    width: 25px;
+  }
+
+  .navbar {
+    padding: 15px;
+  }
+  .nav-links{
+    width: 100%;
+    padding: 15px;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+
 .container {
   width: 100%;
   max-width: 1440px;
@@ -149,6 +173,8 @@ nav {
   border-radius: 15px;
   box-shadow: 0 0 20px rgb(75, 73, 73);
 }
+
+
 
 .card1 {
   margin: 0 auto;
@@ -273,7 +299,7 @@ nav {
 }
 
 
-/* Стили для каталога машин */
+
 .car-list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -328,11 +354,85 @@ nav {
   }
 }
 
-
-
-
-
 .car-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 10px 24px rgba(0, 0, 0, 0.8);
+}
+
+
+
+
+.car-details {
+  display: flex;
+  gap: 40px;
+  border-radius: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.car-details-image {
+  width: 500px;
+  max-width: 100%;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.car-details-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 500px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.car-details-info h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.car-details-info p {
+  font-size: 18px;
+  margin: 6px 0;
+}
+
+.back-button {
+  background-color: #5e5e5e;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+  font-size: 16px;
+  height: 75px;
+  width: 90px;
+}
+
+.back-button:hover {
+  background-color: rgb(112, 112, 112);
+}
+
+.containere{
+  margin-top: 12%;
+}
+@media (max-width: 768px) {
+  .car-details {
+    display: flex;
+    margin-top: 80px;
+    padding: 0 20px;
+  }
+
+  .car-details-info h2 {
+    font-size: 24px;
+  }
+
+  .car-details-info p {
+    font-size: 16px;
+  }
+
+  .back-button {
+    margin-top: 12%;  
+    width: 100%;
+    font-size: 16px;
+  }
 }

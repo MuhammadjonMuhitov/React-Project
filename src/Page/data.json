@@ -27,7 +27,82 @@
             "year": 2025,
             "price": "24 950 000 ₽",
             "images": ["https://greats.gallery/upload/resize_cache/iblock/d45/730_547_2/xvx8taba2dx64v2m3p33o0d97cg7sa6i.jpg"]
+        },
+        {
+            "type": "BMW",
+            "model": "BMW M5",
+            "year": 2025,
+            "price": "24 700 000 ₽",
+            "images": ["https://greats.gallery/upload/resize_cache/iblock/58b/730_547_2/ra6cwj9wq6s0gzsn1c05znhf2bp3qqpd.jpg"]
+        },        
+        {
+            "type": "AUDI",
+            "model": "AUDI RS6 Avant",
+            "year": 2022,
+            "price": "17 650 000 ₽",
+            "images": ["https://greats.gallery/upload/resize_cache/iblock/390/730_547_2/18prawe64bo0427arfgry1a4vnaeyihk.jpg"]
+        },        {
+            "type": "ZEEKR",
+            "model": "ZEEKR 009",
+            "year": 2023,
+            "price": "7 900 000 ₽",
+            "images": ["https://greats.gallery/upload/resize_cache/iblock/ffb/730_547_2/se1xuhvrgyvb9n2j2a7gkyim0npqfo0w.jpeg"]
+        },        
+        {
+            "type": "Mercedes-Benz",
+            "model": "Mercedes-Benz V 300d EL FL",
+            "year": 2024,
+            "price": "15 700 000 ₽",
+            "images": ["https://greats.gallery/upload/resize_cache/iblock/d15/730_547_2/0ql0gnynnu9vo9phodpdhbvfc2ue992t.jpg"]
+        },        
+        {
+            "type": "Mercedes-Benz",
+            "model": "Mercedes-Benz G 800 Brabus 4х4",
+            "year": 2024,
+            "price": "74 790 000 ₽",
+            "images": ["https://greats.gallery/upload/resize_cache/iblock/8c8/730_547_2/10o1lcakz64j10j6rkcsq3h07qro0tyo.jpg"]
+        },        
+        {
+            "type": "Ford",
+            "model": "Ford Mustang Boss 302",
+            "year": 1969,
+            "price": "27 900 000 ₽",
+            "images": ["https://greats.gallery/upload/resize_cache/iblock/ef2/730_547_2/t3gfokbijb6072co9t1cepy3wuugirs9.jpg"]
+        },        
+        {
+            "type": "Mercedes-Benz",
+            "model": "Mercedes-Benz G 800 Brabus",
+            "year": 2025,
+            "price": "45 000 000 ₽",
+            "images": ["https://greats.gallery/upload/resize_cache/iblock/09f/730_547_2/bqptsup22fttxwxbwt2okunppyysi3xo.jpg"]
+        },        
+        {
+            "type": "Tesla",
+            "model": "Tesla Cybertruck",
+            "year": 2024,
+            "price": "21 800 000 ₽",
+            "images": ["https://greats.gallery/upload/resize_cache/iblock/2a1/730_547_2/1xdealq46g02ybvmn55wmo96ieg3ldsk.png"]
+        },        
+        {
+            "type": "Porsche",
+            "model": "Porsche 911 Turbo S 50 Years 1 of 1974",
+            "year": 2024,
+            "price": "37 000 000 ₽",
+            "images": ["https://greats.gallery/upload/resize_cache/iblock/108/730_547_2/33iqmpsq47j8vdm6uw5ykzuzn3uho7d4.jpg"]
+        },        
+        {
+            "type": "Porsche",
+            "model": "Porsche 911 Turbo S",
+            "year": 2023,
+            "price": "38 490 000 ₽",
+            "images": ["https://greats.gallery/upload/resize_cache/iblock/f39/730_547_2/vkc55wesqwe2dapvdfuax2vemhkck1mr.jpg"]
+        },        
+        {
+            "type": "Porsche",
+            "model": "Porsche Brabus 900 Rocket R",
+            "year": 2023,
+            "price": "89 900 000 ₽",
+            "images": ["https://greats.gallery/upload/resize_cache/iblock/944/730_547_2/nj47d2qj22r3w7kjryr74fih61jt4xyj.jpg"]
         }
-
     ]
 }
