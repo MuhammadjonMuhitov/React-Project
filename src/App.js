@@ -1,6 +1,7 @@
-import "./index.css"
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+// App.js
+import "./index.css";
 import React from "react";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import { About } from "./Page/About";
 import { Home } from "./Page/Home";
 import { Contacts } from "./Page/Contacts";
@@ -9,10 +10,9 @@ import { Service } from "./Page/Service";
 import { NavCom } from "./componennts/NavCom";
 import Car from "./Page/Car";
 
-
 function App() {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <HashRouter>
       <div className="App">
         <NavCom />
         <Routes>
@@ -22,10 +22,9 @@ function App() {
           <Route path="/service" element={<Service />} />
           <Route path="/contacts" element={<Contacts />} />
           <Route path="/catalog/:id" element={<Car />} />
-
         </Routes>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
