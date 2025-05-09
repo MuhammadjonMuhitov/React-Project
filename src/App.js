@@ -20,7 +20,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/service" element={<Service />} />
           <Route path="/contacts" element={<Contacts />} />
-          <Route path="/catalog/:id" element={<Car />} />
+          <Route path="/catalog/:model" element={<Car />} /> {/* Используем model в маршруте */}
         </Routes>
       </div>
     </HashRouter>

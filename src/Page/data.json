@@ -1,436 +1,252 @@
 {
     "cars": [
-        {
-            "type": "Rolls-Royce",
-            "model": "Rolls-Royce Cullinan",
-            "year": 2021,
-            "price": "36 950 000 ₽",
-            "images": [
-                "https://greats.gallery/upload/resize_cache/iblock/b6d/730_547_2/ctdm9c9kre4resi63kgulg3ofv3776u0.jpg"
-            ]
-        },
-        {
-            "type": "Mercedes-Benz",
-            "model": "Mercedes-Benz GLS 450d FL",
-            "year": 2025,
-            "price": "19 470 000 ₽",
-            "images": [
-                "https://greats.gallery/upload/resize_cache/iblock/1fb/730_547_2/w20nyjhc9hr1pjo4he3r2iahhxhf3o2a.jpg"
-            ]
-        },
-        {
-            "type": "BMW",
-            "model": "BMW X5M Competition",
-            "year": 2020,
-            "price": "12 800 000 ₽",
-            "images": [
-                "https://greats.gallery/upload/resize_cache/iblock/2f5/730_547_2/gveh8rv6k9e14jttkpzu5dtfrr9b1zhg.jpg"
-            ]
-        },
-        {
-            "type": "BMW",
-            "model": "BMW X6M Competition FL",
-            "year": 2025,
-            "price": "24 950 000 ₽",
-            "images": [
-                "https://greats.gallery/upload/resize_cache/iblock/d45/730_547_2/xvx8taba2dx64v2m3p33o0d97cg7sa6i.jpg"
-            ]
-        },
-        {
-            "type": "BMW",
-            "model": "BMW M5",
-            "year": 2025,
-            "price": "24 700 000 ₽",
-            "images": [
-                "https://greats.gallery/upload/resize_cache/iblock/58b/730_547_2/ra6cwj9wq6s0gzsn1c05znhf2bp3qqpd.jpg"
-            ]
-        },
-        {
-            "type": "AUDI",
-            "model": "AUDI RS6 Avant",
-            "year": 2022,
-            "price": "17 650 000 ₽",
-            "images": [
-                "https://greats.gallery/upload/resize_cache/iblock/390/730_547_2/18prawe64bo0427arfgry1a4vnaeyihk.jpg"
-            ]
-        },
-        {
-            "type": "ZEEKR",
-            "model": "ZEEKR 009",
-            "year": 2023,
-            "price": "7 900 000 ₽",
-            "images": [
-                "https://greats.gallery/upload/resize_cache/iblock/ffb/730_547_2/se1xuhvrgyvb9n2j2a7gkyim0npqfo0w.jpeg"
-            ]
-        },
-        {
-            "type": "Mercedes-Benz",
-            "model": "Mercedes-Benz V 300d EL FL",
-            "year": 2024,
-            "price": "15 700 000 ₽",
-            "images": [
-                "https://greats.gallery/upload/resize_cache/iblock/d15/730_547_2/0ql0gnynnu9vo9phodpdhbvfc2ue992t.jpg"
-            ]
-        },
-        {
-            "type": "Mercedes-Benz",
-            "model": "Mercedes-Benz G 800 Brabus 4х4",
-            "year": 2024,
-            "price": "74 790 000 ₽",
-            "images": [
-                "https://greats.gallery/upload/resize_cache/iblock/8c8/730_547_2/10o1lcakz64j10j6rkcsq3h07qro0tyo.jpg"
-            ]
-        },
-        {
-            "type": "Ford",
-            "model": "Ford Mustang Boss 302",
-            "year": 1969,
-            "price": "27 900 000 ₽",
-            "images": [
-                "https://greats.gallery/upload/resize_cache/iblock/ef2/730_547_2/t3gfokbijb6072co9t1cepy3wuugirs9.jpg"
-            ]
-        },
-        {
-            "type": "Mercedes-Benz",
-            "model": "Mercedes-Benz G 800 Brabus",
-            "year": 2025,
-            "price": "45 000 000 ₽",
-            "images": [
-                "https://greats.gallery/upload/resize_cache/iblock/09f/730_547_2/bqptsup22fttxwxbwt2okunppyysi3xo.jpg"
-            ]
-        },
-        {
-            "type": "Tesla",
-            "model": "Tesla Cybertruck",
-            "year": 2024,
-            "price": "21 800 000 ₽",
-            "images": [
-                "https://greats.gallery/upload/resize_cache/iblock/2a1/730_547_2/1xdealq46g02ybvmn55wmo96ieg3ldsk.png"
-            ]
-        },
-        {
-            "type": "Porsche",
-            "model": "Porsche 911 Turbo S 50 Years 1 of 1974",
-            "year": 2024,
-            "price": "37 000 000 ₽",
-            "images": [
-                "https://greats.gallery/upload/resize_cache/iblock/108/730_547_2/33iqmpsq47j8vdm6uw5ykzuzn3uho7d4.jpg"
-            ]
-        },
-        {
-            "type": "Porsche",
-            "model": "Porsche 911 Turbo S",
-            "year": 2023,
-            "price": "38 490 000 ₽",
-            "images": [
-                "https://greats.gallery/upload/resize_cache/iblock/f39/730_547_2/vkc55wesqwe2dapvdfuax2vemhkck1mr.jpg"
-            ]
-        },
-        {
-            "type": "Porsche",
-            "model": "Porsche Brabus 900 Rocket R",
-            "year": 2023,
-            "price": "89 900 000 ₽",
-            "images": [
-                "https://greats.gallery/upload/resize_cache/iblock/944/730_547_2/nj47d2qj22r3w7kjryr74fih61jt4xyj.jpg"
-            ]
-        },
-        {
-            "type": "Bentley",
-            "model": "Bentley Bentayga First Edition",
-            "year": 202,
-            "price": " 900 000 ₽",
-            "images": [
-                "https://greats.gallery/upload/resize_cache/iblock/0f7/730_547_2/nxxfpzi971qthaht0mqbjyrpoy6lsy4z.jpg"
-            ]
-        },
-        {
-            "type": "BMW",
-            "model": "BMW M8 Gran Coupe Competition",
-            "year": 202,
-            "price": "50 900 000 ₽",
-            "images": [
-                "https://greats.gallery/upload/resize_cache/iblock/bef/730_547_2/nija27y37oy1yxtn1d4eyt4a3xswe1gi.jpg"
-            ]
-        },
-        {
-            "type": "Lamborghini",
-            "model": "Lamborghini Urus S",
-            "year": 2023,
-            "price": "18 900 012 ₽",
-            "images": [
-                "https://greats.gallery/upload/resize_cache/iblock/826/730_547_2/zz51xordf1pziz1otaajrwazersipx11.jpeg"
-            ]
-        },
-        {
-            "type": "Rolls-Royce",
-            "model": "Rolls-Royce Cullinan Black Badge  ",
-            "year": 2024,
-            "price": "25 900 000 ₽",
-            "images": [
-                "https://greats.gallery/upload/resize_cache/iblock/8fd/730_547_2/3u13wwb1mfh9xvox00hztuoqlc33v1b1.jpg"
-            ]
-        },
-        {
-            "type": "Porsche",
-            "model": "Porsche Brabus 900 Rocket R",
-            "year": 2023,
-            "price": "89 900 000 ₽",
-            "images": [
-                "https://greats.gallery/upload/resize_cache/iblock/944/730_547_2/nj47d2qj22r3w7kjryr74fih61jt4xyj.jpg"
-            ]
-        },
-        {
-            "type": "Porsche",
-            "model": "Porsche Brabus 900 Rocket R",
-            "year": 2023,
-            "price": "89 900 000 ₽",
-            "images": [
-                "https://greats.gallery/upload/resize_cache/iblock/944/730_547_2/nj47d2qj22r3w7kjryr74fih61jt4xyj.jpg"
-            ]
-        },
-        {
-            "type": "Porsche",
-            "model": "Porsche Brabus 900 Rocket R",
-            "year": 2023,
-            "price": "89 900 000 ₽",
-            "images": [
-                "https://greats.gallery/upload/resize_cache/iblock/944/730_547_2/nj47d2qj22r3w7kjryr74fih61jt4xyj.jpg"
-            ]
-        },
-        {
-            "type": "Porsche",
-            "model": "Porsche Brabus 900 Rocket R",
-            "year": 2023,
-            "price": "89 900 000 ₽",
-            "images": [
-                "https://greats.gallery/upload/resize_cache/iblock/944/730_547_2/nj47d2qj22r3w7kjryr74fih61jt4xyj.jpg"
-            ]
-        },
-        {
-            "type": "Porsche",
-            "model": "Porsche Brabus 900 Rocket R",
-            "year": 2023,
-            "price": "89 900 000 ₽",
-            "images": [
-                "https://greats.gallery/upload/resize_cache/iblock/944/730_547_2/nj47d2qj22r3w7kjryr74fih61jt4xyj.jpg"
-            ]
-        },
-        {
-            "type": "Porsche",
-            "model": "Porsche Brabus 900 Rocket R",
-            "year": 2023,
-            "price": "89 900 000 ₽",
-            "images": [
-                "https://greats.gallery/upload/resize_cache/iblock/944/730_547_2/nj47d2qj22r3w7kjryr74fih61jt4xyj.jpg"
-            ]
-        },
-        {
-            "type": "Porsche",
-            "model": "Porsche Brabus 900 Rocket R",
-            "year": 2023,
-            "price": "89 900 000 ₽",
-            "images": [
-                "https://greats.gallery/upload/resize_cache/iblock/944/730_547_2/nj47d2qj22r3w7kjryr74fih61jt4xyj.jpg"
-            ]
-        },
-        {
-            "type": "Porsche",
-            "model": "Porsche Brabus 900 Rocket R",
-            "year": 2023,
-            "price": "89 900 000 ₽",
-            "images": [
-                "https://greats.gallery/upload/resize_cache/iblock/944/730_547_2/nj47d2qj22r3w7kjryr74fih61jt4xyj.jpg"
-            ]
-        },
-        {
-            "type": "Porsche",
-            "model": "Porsche Brabus 900 Rocket R",
-            "year": 2023,
-            "price": "89 900 000 ₽",
-            "images": [
-                "https://greats.gallery/upload/resize_cache/iblock/944/730_547_2/nj47d2qj22r3w7kjryr74fih61jt4xyj.jpg"
-            ]
-        },
-        {
-            "type": "Porsche",
-            "model": "Porsche Brabus 900 Rocket R",
-            "year": 2023,
-            "price": "89 900 000 ₽",
-            "images": [
-                "https://greats.gallery/upload/resize_cache/iblock/944/730_547_2/nj47d2qj22r3w7kjryr74fih61jt4xyj.jpg"
-            ]
-        },
-        {
-            "type": "Porsche",
-            "model": "Porsche Brabus 900 Rocket R",
-            "year": 2023,
-            "price": "89 900 000 ₽",
-            "images": [
-                "https://greats.gallery/upload/resize_cache/iblock/944/730_547_2/nj47d2qj22r3w7kjryr74fih61jt4xyj.jpg"
-            ]
-        },
-        {
-            "type": "Porsche",
-            "model": "Porsche Brabus 900 Rocket R",
-            "year": 2023,
-            "price": "89 900 000 ₽",
-            "images": [
-                "https://greats.gallery/upload/resize_cache/iblock/944/730_547_2/nj47d2qj22r3w7kjryr74fih61jt4xyj.jpg"
-            ]
-        },
-        {
-            "type": "Porsche",
-            "model": "Porsche Brabus 900 Rocket R",
-            "year": 2023,
-            "price": "89 900 000 ₽",
-            "images": [
-                "https://greats.gallery/upload/resize_cache/iblock/944/730_547_2/nj47d2qj22r3w7kjryr74fih61jt4xyj.jpg"
-            ]
-        },
-        {
-            "type": "Porsche",
-            "model": "Porsche Brabus 900 Rocket R",
-            "year": 2023,
-            "price": "89 900 000 ₽",
-            "images": [
-                "https://greats.gallery/upload/resize_cache/iblock/944/730_547_2/nj47d2qj22r3w7kjryr74fih61jt4xyj.jpg"
-            ]
-        },
-        {
-            "type": "Porsche",
-            "model": "Porsche Brabus 900 Rocket R",
-            "year": 2023,
-            "price": "89 900 000 ₽",
-            "images": [
-                "https://greats.gallery/upload/resize_cache/iblock/944/730_547_2/nj47d2qj22r3w7kjryr74fih61jt4xyj.jpg"
-            ]
-        },
-        {
-            "type": "Porsche",
-            "model": "Porsche Brabus 900 Rocket R",
-            "year": 2023,
-            "price": "89 900 000 ₽",
-            "images": [
-                "https://greats.gallery/upload/resize_cache/iblock/944/730_547_2/nj47d2qj22r3w7kjryr74fih61jt4xyj.jpg"
-            ]
-        },
-        {
-            "type": "Porsche",
-            "model": "Porsche Brabus 900 Rocket R",
-            "year": 2023,
-            "price": "89 900 000 ₽",
-            "images": [
-                "https://greats.gallery/upload/resize_cache/iblock/944/730_547_2/nj47d2qj22r3w7kjryr74fih61jt4xyj.jpg"
-            ]
-        },
-        {
-            "type": "Porsche",
-            "model": "Porsche Brabus 900 Rocket R",
-            "year": 2023,
-            "price": "89 900 000 ₽",
-            "images": [
-                "https://greats.gallery/upload/resize_cache/iblock/944/730_547_2/nj47d2qj22r3w7kjryr74fih61jt4xyj.jpg"
-            ]
-        },
-        {
-            "type": "Porsche",
-            "model": "Porsche Brabus 900 Rocket R",
-            "year": 2023,
-            "price": "89 900 000 ₽",
-            "images": [
-                "https://greats.gallery/upload/resize_cache/iblock/944/730_547_2/nj47d2qj22r3w7kjryr74fih61jt4xyj.jpg"
-            ]
-        },
-        {
-            "type": "Porsche",
-            "model": "Porsche Brabus 900 Rocket R",
-            "year": 2023,
-            "price": "89 900 000 ₽",
-            "images": [
-                "https://greats.gallery/upload/resize_cache/iblock/944/730_547_2/nj47d2qj22r3w7kjryr74fih61jt4xyj.jpg"
-            ]
-        },
-        {
-            "type": "Porsche",
-            "model": "Porsche Brabus 900 Rocket R",
-            "year": 2023,
-            "price": "89 900 000 ₽",
-            "images": [
-                "https://greats.gallery/upload/resize_cache/iblock/944/730_547_2/nj47d2qj22r3w7kjryr74fih61jt4xyj.jpg"
-            ]
-        },
-        {
-            "type": "Porsche",
-            "model": "Porsche Brabus 900 Rocket R",
-            "year": 2023,
-            "price": "89 900 000 ₽",
-            "images": [
-                "https://greats.gallery/upload/resize_cache/iblock/944/730_547_2/nj47d2qj22r3w7kjryr74fih61jt4xyj.jpg"
-            ]
-        },
-        {
-            "type": "Porsche",
-            "model": "Porsche Brabus 900 Rocket R",
-            "year": 2023,
-            "price": "89 900 000 ₽",
-            "images": [
-                "https://greats.gallery/upload/resize_cache/iblock/944/730_547_2/nj47d2qj22r3w7kjryr74fih61jt4xyj.jpg"
-            ]
-        },
-        {
-            "type": "Porsche",
-            "model": "Porsche Brabus 900 Rocket R",
-            "year": 2023,
-            "price": "89 900 000 ₽",
-            "images": [
-                "https://greats.gallery/upload/resize_cache/iblock/944/730_547_2/nj47d2qj22r3w7kjryr74fih61jt4xyj.jpg"
-            ]
-        },
-        {
-            "type": "Porsche",
-            "model": "Porsche Brabus 900 Rocket R",
-            "year": 2023,
-            "price": "89 900 000 ₽",
-            "images": [
-                "https://greats.gallery/upload/resize_cache/iblock/944/730_547_2/nj47d2qj22r3w7kjryr74fih61jt4xyj.jpg"
-            ]
-        },
-        {
-            "type": "Porsche",
-            "model": "Porsche Brabus 900 Rocket R",
-            "year": 2023,
-            "price": "89 900 000 ₽",
-            "images": [
-                "https://greats.gallery/upload/resize_cache/iblock/944/730_547_2/nj47d2qj22r3w7kjryr74fih61jt4xyj.jpg"
-            ]
-        },
-        {
-            "type": "Porsche",
-            "model": "Porsche Brabus 900 Rocket R",
-            "year": 2023,
-            "price": "89 900 000 ₽",
-            "images": [
-                "https://greats.gallery/upload/resize_cache/iblock/944/730_547_2/nj47d2qj22r3w7kjryr74fih61jt4xyj.jpg"
-            ]
-        },
-        {
-            "type": "Porsche",
-            "model": "Porsche Brabus 900 Rocket R",
-            "year": 2023,
-            "price": "89 900 000 ₽",
-            "images": [
-                "https://greats.gallery/upload/resize_cache/iblock/944/730_547_2/nj47d2qj22r3w7kjryr74fih61jt4xyj.jpg"
-            ]
-        },
-        {
-            "type": "Porsche",
-            "model": "Porsche Brabus 900 Rocket R",
-            "year": 2023,
-            "price": "89 900 000 ₽",
-            "images": [
-                "https://greats.gallery/upload/resize_cache/iblock/944/730_547_2/nj47d2qj22r3w7kjryr74fih61jt4xyj.jpg"
-            ]
-        }
+      {
+        "type": "Rolls-Royce",
+        "model": "Rolls-Royce Cullinan",
+        "year": 2021,
+        "price": "36 950 000 ₽",
+        "engine": "6.75L V12",
+        "power": "563 hp",
+        "acceleration": "5.2 s",
+        "drive": "AWD",
+        "images": [
+          "https://greats.gallery/upload/resize_cache/iblock/b6d/730_547_2/ctdm9c9kre4resi63kgulg3ofv3776u0.jpg"
+        ]
+      },
+      {
+        "type": "Mercedes-Benz",
+        "model": "Mercedes-Benz GLS 450d FL",
+        "year": 2025,
+        "price": "19 470 000 ₽",
+        "engine": "3.0L I6 Diesel",
+        "power": "367 hp",
+        "acceleration": "6.1 s",
+        "drive": "AWD",
+        "images": [
+          "https://greats.gallery/upload/resize_cache/iblock/1fb/730_547_2/w20nyjhc9hr1pjo4he3r2iahhxhf3o2a.jpg"
+        ]
+      },
+      {
+        "type": "BMW",
+        "model": "BMW X5M Competition",
+        "year": 2020,
+        "price": "12 800 000 ₽",
+        "engine": "4.4L V8 Twin Turbo",
+        "power": "625 hp",
+        "acceleration": "3.8 s",
+        "drive": "AWD",
+        "images": [
+          "https://greats.gallery/upload/resize_cache/iblock/2f5/730_547_2/gveh8rv6k9e14jttkpzu5dtfrr9b1zhg.jpg"
+        ]
+      },
+      {
+        "type": "BMW",
+        "model": "BMW X6M Competition FL",
+        "year": 2025,
+        "price": "24 950 000 ₽",
+        "engine": "4.4L V8 Twin Turbo",
+        "power": "617 hp",
+        "acceleration": "3.8 s",
+        "drive": "AWD",
+        "images": [
+          "https://greats.gallery/upload/resize_cache/iblock/d45/730_547_2/xvx8taba2dx64v2m3p33o0d97cg7sa6i.jpg"
+        ]
+      },
+      {
+        "type": "BMW",
+        "model": "BMW M5",
+        "year": 2025,
+        "price": "24 700 000 ₽",
+        "engine": "4.4L V8 Twin Turbo",
+        "power": "625 hp",
+        "acceleration": "3.1 s",
+        "drive": "AWD",
+        "images": [
+          "https://greats.gallery/upload/resize_cache/iblock/58b/730_547_2/ra6cwj9wq6s0gzsn1c05znhf2bp3qqpd.jpg"
+        ]
+      },
+      {
+        "type": "AUDI",
+        "model": "AUDI RS6 Avant",
+        "year": 2022,
+        "price": "17 650 000 ₽",
+        "engine": "4.0L V8 Twin Turbo",
+        "power": "591 hp",
+        "acceleration": "3.5 s",
+        "drive": "AWD",
+        "images": [
+          "https://greats.gallery/upload/resize_cache/iblock/390/730_547_2/18prawe64bo0427arfgry1a4vnaeyihk.jpg"
+        ]
+      },
+      {
+        "type": "ZEEKR",
+        "model": "ZEEKR 009",
+        "year": 2023,
+        "price": "7 900 000 ₽",
+        "engine": "Electric",
+        "power": "544 hp",
+        "acceleration": "4.5 s",
+        "drive": "AWD",
+        "images": [
+          "https://greats.gallery/upload/resize_cache/iblock/ffb/730_547_2/se1xuhvrgyvb9n2j2a7gkyim0npqfo0w.jpeg"
+        ]
+      },
+      {
+        "type": "Mercedes-Benz",
+        "model": "Mercedes-Benz V 300d EL FL",
+        "year": 2024,
+        "price": "15 700 000 ₽",
+        "engine": "2.0L I4 Diesel",
+        "power": "239 hp",
+        "acceleration": "9.0 s",
+        "drive": "AWD",
+        "images": [
+          "https://greats.gallery/upload/resize_cache/iblock/d15/730_547_2/0ql0gnynnu9vo9phodpdhbvfc2ue992t.jpg"
+        ]
+      },
+      {
+        "type": "Mercedes-Benz",
+        "model": "Mercedes-Benz G 800 Brabus 4х4",
+        "year": 2024,
+        "price": "74 790 000 ₽",
+        "engine": "4.0L V8 Twin Turbo",
+        "power": "789 hp",
+        "acceleration": "4.5 s",
+        "drive": "AWD",
+        "images": [
+          "https://greats.gallery/upload/resize_cache/iblock/8c8/730_547_2/10o1lcakz64j10j6rkcsq3h07qro0tyo.jpg"
+        ]
+      },
+      {
+        "type": "Ford",
+        "model": "Ford Mustang Boss 302",
+        "year": 1969,
+        "price": "27 900 000 ₽",
+        "engine": "5.0L V8",
+        "power": "290 hp",
+        "acceleration": "6.9 s",
+        "drive": "RWD",
+        "images": [
+          "https://greats.gallery/upload/resize_cache/iblock/ef2/730_547_2/t3gfokbijb6072co9t1cepy3wuugirs9.jpg"
+        ]
+      },
+      {
+        "type": "Mercedes-Benz",
+        "model": "Mercedes-Benz G 800 Brabus",
+        "year": 2025,
+        "price": "45 000 000 ₽",
+        "engine": "4.0L V8 Twin Turbo",
+        "power": "789 hp",
+        "acceleration": "4.5 s",
+        "drive": "AWD",
+        "images": [
+          "https://greats.gallery/upload/resize_cache/iblock/09f/730_547_2/bqptsup22fttxwxbwt2okunppyysi3xo.jpg"
+        ]
+      },
+      {
+        "type": "Tesla",
+        "model": "Tesla Cybertruck",
+        "year": 2024,
+        "price": "21 800 000 ₽",
+        "engine": "Electric",
+        "power": "1,000 hp",
+        "acceleration": "2.9 s",
+        "drive": "AWD",
+        "images": [
+          "https://greats.gallery/upload/resize_cache/iblock/2a1/730_547_2/1xdealq46g02ybvmn55wmo96ieg3ldsk.png"
+        ]
+      },
+      {
+        "type": "Porsche",
+        "model": "Porsche 911 Turbo S 50 Years 1 of 1974",
+        "year": 2024,
+        "price": "37 000 000 ₽",
+        "engine": "3.8L I6 Twin Turbo",
+        "power": "650 hp",
+        "acceleration": "2.7 s",
+        "drive": "AWD",
+        "images": [
+          "https://greats.gallery/upload/resize_cache/iblock/108/730_547_2/33iqmpsq47j8vdm6uw5ykzuzn3uho7d4.jpg"
+        ]
+      },
+      {
+        "type": "Porsche",
+        "model": "Porsche 911 Turbo S",
+        "year": 2023,
+        "price": "38 490 000 ₽",
+        "engine": "3.8L I6 Twin Turbo",
+        "power": "650 hp",
+        "acceleration": "2.7 s",
+        "drive": "AWD",
+        "images": [
+          "https://greats.gallery/upload/resize_cache/iblock/f39/730_547_2/vkc55wesqwe2dapvdfuax2vemhkck1mr.jpg"
+        ]
+      },
+      {
+        "type": "Porsche",
+        "model": "Porsche Brabus 900 Rocket R",
+        "year": 2023,
+        "price": "89 900 000 ₽",
+        "engine": "4.5L V8 Twin Turbo",
+        "power": "900 hp",
+        "acceleration": "2.8 s",
+        "drive": "AWD",
+        "images": [
+          "https://greats.gallery/upload/resize_cache/iblock/944/730_547_2/nj47d2qj22r3w7kjryr74fih61jt4xyj.jpg"
+        ]
+      },
+      {
+        "type": "Bentley",
+        "model": "Bentley Bentayga First Edition",
+        "year": 2020,
+        "price": "90 000 000 ₽",
+        "engine": "6.0L W12",
+        "power": "635 hp",
+        "acceleration": "4.0 s",
+        "drive": "AWD",
+        "images": [
+          "https://greats.gallery/upload/resize_cache/iblock/0f7/730_547_2/nxxfpzi971qthaht0mqbjyrpoy6lsy4z.jpg"
+        ]
+      },
+      {
+        "type": "BMW",
+        "model": "BMW M8 Gran Coupe Competition",
+        "year": 2020,
+        "price": "50 900 000 ₽",
+        "engine": "4.4L V8 Twin Turbo",
+        "power": "617 hp",
+        "acceleration": "3.1 s",
+        "drive": "AWD",
+        "images": [
+          "https://greats.gallery/upload/resize_cache/iblock/bef/730_547_2/nija27y37oy1yxtn1d4eyt4a3xswe1gi.jpg"
+        ]
+      },
+      {
+        "type": "Lamborghini",
+        "model": "Lamborghini Urus S",
+        "year": 2023,
+        "price": "18 900 012 ₽",
+        "engine": "4.0L V8 Twin Turbo",
+        "power": "650 hp",
+        "acceleration": "3.6 s",
+        "drive": "AWD",
+        "images": [
+          "https://greats.gallery/upload/resize_cache/iblock/826/730_547_2/zz51xordf1pziz1otaajrwazersipx11.jpeg"
+        ]
+      },
+      {
+        "type": "Rolls-Royce",
+        "model": "Rolls-Royce Cullinan Black Badge",
+        "year": 2024,
+        "price": "25 900 000 ₽",
+        "engine": "6.75L V12",
+        "power": "563 hp",
+        "acceleration": "5.2 s",
+        "drive": "AWD",
+        "images": [
+          "https://greats.gallery/upload/resize_cache/iblock/8fd/730_547_2/3u13wwb1mfh9xvox00hztuoqlc33v1b1.jpg"
+        ]
+      }
     ]
-}
+  }
+  

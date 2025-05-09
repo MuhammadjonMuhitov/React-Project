@@ -1,20 +1,25 @@
 import { useState, useEffect } from 'react';
-import './style/style.css';  // Подключаем стили
+import './style/style.css';
 
 export const Contacts = () => {
   const [input, setInput] = useState({ username: '', password: '' });
   const [message, setMessage] = useState('');
-  const [users, setUsers] = useState([]);  // Стейт для пользователей
+  const [users, setUsers] = useState([]);
+  const [loading, setLoading] = useState(true);
 
-  // Загрузка данных из JSON
   useEffect(() => {
-    fetch('/users.json')  // Загружаем файл users.json из публичной папки
+    fetch('/users.json')  
       .then(response => response.json())
-      .then(data => setUsers(data))  // Записываем пользователей в стейт
-      .catch(error => console.error('Error loading JSON:', error));
+      .then(data => {
+        setUsers(data);
+        setLoading(false);
+      }) 
+      .catch(error => {
+        console.error('Error loading JSON:', error);
+        setLoading(false);
+      });
   }, []);
 
-  // Обработка изменений в полях формы
   const handleChange = (e) => {
     setInput(prev => ({
       ...prev,
@@ -22,21 +27,29 @@ export const Contacts = () => {
     }));
   };
 
-  // Обработка отправки формы
   const handleSubmit = (e) => {
     e.preventDefault();
-
+  
+    if (loading) {
+      setMessage('⏳ Загрузка данных...');
+      return;
+    }
+  
+    console.log('input.username:', input.username);
+    console.log('input.password:', input.password);
+    console.log('users:', users);
+  
     const found = users.find(user =>
       user.username === input.username && user.password === input.password
     );
-
+  
     if (found) {
       setMessage('✅ Добро пожаловать, ' + found.username + '!');
     } else {
       setMessage('❌ Неверное имя пользователя или пароль');
     }
   };
-
+  
   return (
     <div className="contacts-container">
       <form onSubmit={handleSubmit} className="form">
@@ -63,8 +76,7 @@ export const Contacts = () => {
         </div>
         <button type="submit" className="submit-button">Войти</button>
         {message && <p className="message">{message}</p>}
-      </form> 
-      
+      </form>
     </div>
   );
 };

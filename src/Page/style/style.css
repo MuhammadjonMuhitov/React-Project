@@ -362,6 +362,7 @@ nav {
 
 
 
+
 .car-details {
   display: flex;
   gap: 40px;
@@ -384,16 +385,33 @@ nav {
   max-width: 500px;
   padding: 20px;
   box-sizing: border-box;
+  background-color: rgb(43, 43, 43); /* Убираем серый фон */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Добавляем легкую тень */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Анимация для фокуса */
+}
+
+.car-details-info:hover {
+  transform: translateY(-10px); /* Легкий подъем при наведении */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Усиливаем тень */
 }
 
 .car-details-info h2 {
   font-size: 28px;
   margin-bottom: 20px;
+  font-weight: bold;
+  color: rgb(150, 59, 59);
 }
 
 .car-details-info p {
   font-size: 18px;
   margin: 6px 0;
+  line-height: 1.6;
+  color: rgb(255, 255, 255);
+}
+
+.car-details-info p strong {
+  color: rgb(184, 179, 179);
 }
 
 .back-button {
@@ -402,19 +420,16 @@ nav {
   border: none;
   border-radius: 8px;
   cursor: pointer;
-  transition: background 0.2s ease;
   font-size: 16px;
-  height: 75px;
-  width: 90px;
+  height: 50px;
+  width: 100px;
 }
 
-.back-button:hover {
-  background-color: rgb(112, 112, 112);
-}
-
-.containere{
+.containere {
   margin-top: 12%;
+  position: relative;
 }
+
 @media (max-width: 768px) {
   .car-details {
     display: flex;
@@ -431,8 +446,11 @@ nav {
   }
 
   .back-button {
-    margin-top: 12%;  
+    position: absolute;
+    top: 20px;
+    left: 20px;
     width: 100%;
-    font-size: 16px;
+    font-size: 18px;
+    height: 60px;
   }
 }
