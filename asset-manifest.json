@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/React-Project/static/css/main.cf49bf43.css",
+    "main.js": "/React-Project/static/js/main.0cedd257.js",
+    "static/media/home_img.png": "/React-Project/static/media/home_img.4f75632137a2b8f6734a.png",
+    "static/media/porsche.jpg": "/React-Project/static/media/porsche.2238b23dee245f397bf0.jpg",
+    "index.html": "/React-Project/index.html",
+    "main.cf49bf43.css.map": "/React-Project/static/css/main.cf49bf43.css.map",
+    "main.0cedd257.js.map": "/React-Project/static/js/main.0cedd257.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cf49bf43.css",
+    "static/js/main.0cedd257.js"
+  ]
+}
