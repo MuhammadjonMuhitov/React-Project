@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/React-Project/static/css/main.cf49bf43.css",
-    "main.js": "/React-Project/static/js/main.0cedd257.js",
-    "static/media/home_img.png": "/React-Project/static/media/home_img.4f75632137a2b8f6734a.png",
-    "static/media/porsche.jpg": "/React-Project/static/media/porsche.2238b23dee245f397bf0.jpg",
-    "index.html": "/React-Project/index.html",
-    "main.cf49bf43.css.map": "/React-Project/static/css/main.cf49bf43.css.map",
-    "main.0cedd257.js.map": "/React-Project/static/js/main.0cedd257.js.map"
+    "main.css": "./static/css/main.ffa522a8.css",
+    "main.js": "./static/js/main.f23ef3ec.js",
+    "static/media/home_img.png": "./static/media/home_img.4f75632137a2b8f6734a.png",
+    "static/media/porsche.jpg": "./static/media/porsche.2238b23dee245f397bf0.jpg",
+    "index.html": "./index.html",
+    "main.ffa522a8.css.map": "./static/css/main.ffa522a8.css.map",
+    "main.f23ef3ec.js.map": "./static/js/main.f23ef3ec.js.map"
   },
   "entrypoints": [
-    "static/css/main.cf49bf43.css",
-    "static/js/main.0cedd257.js"
+    "static/css/main.ffa522a8.css",
+    "static/js/main.f23ef3ec.js"
   ]
 }
