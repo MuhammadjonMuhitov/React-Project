@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "./static/css/main.83879475.css",
-    "main.js": "./static/js/main.893ce27a.js",
+    "main.css": "./static/css/main.653958f5.css",
+    "main.js": "./static/js/main.d2e8eb5b.js",
     "static/media/porsche.jpg": "./static/media/porsche.2238b23dee245f397bf0.jpg",
     "index.html": "./index.html",
-    "main.83879475.css.map": "./static/css/main.83879475.css.map",
-    "main.893ce27a.js.map": "./static/js/main.893ce27a.js.map"
+    "main.653958f5.css.map": "./static/css/main.653958f5.css.map",
+    "main.d2e8eb5b.js.map": "./static/js/main.d2e8eb5b.js.map"
   },
   "entrypoints": [
-    "static/css/main.83879475.css",
-    "static/js/main.893ce27a.js"
+    "static/css/main.653958f5.css",
+    "static/js/main.d2e8eb5b.js"
   ]
 }
